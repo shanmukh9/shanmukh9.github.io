@@ -15,8 +15,8 @@ const header = document.querySelector(".site-header");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 32) {
-    header.style.borderColor = "rgba(85, 230, 255, 0.45)";
+    header.style.boxShadow = "0 18px 60px rgba(88, 67, 42, 0.12)";
   } else {
-    header.style.borderColor = "rgba(237, 245, 243, 0.14)";
+    header.style.boxShadow = "none";
   }
 });
